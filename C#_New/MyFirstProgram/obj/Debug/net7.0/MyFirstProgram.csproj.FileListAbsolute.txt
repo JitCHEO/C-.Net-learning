@@ -1,0 +1,15 @@
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/bin/Debug/net7.0/MyFirstProgram
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/bin/Debug/net7.0/MyFirstProgram.deps.json
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/bin/Debug/net7.0/MyFirstProgram.runtimeconfig.json
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/bin/Debug/net7.0/MyFirstProgram.dll
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/bin/Debug/net7.0/MyFirstProgram.pdb
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.AssemblyInfoInputs.cache
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.AssemblyInfo.cs
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.csproj.CoreCompileInputs.cache
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.dll
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/refint/MyFirstProgram.dll
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.pdb
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.genruntimeconfig.cache
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/ref/MyFirstProgram.dll
+/Users/jitkcheo/Desktop/C#/MyFirstProgram/obj/Debug/net7.0/MyFirstProgram.sourcelink.json
