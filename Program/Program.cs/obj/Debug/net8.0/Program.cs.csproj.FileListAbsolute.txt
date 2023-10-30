@@ -1,0 +1,15 @@
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/bin/Debug/net8.0/Program.cs
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/bin/Debug/net8.0/Program.cs.deps.json
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/bin/Debug/net8.0/Program.cs.runtimeconfig.json
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/bin/Debug/net8.0/Program.cs.dll
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/bin/Debug/net8.0/Program.cs.pdb
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.AssemblyInfoInputs.cache
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.AssemblyInfo.cs
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.csproj.CoreCompileInputs.cache
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.sourcelink.json
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.dll
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/refint/Program.cs.dll
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.pdb
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/Program.cs.genruntimeconfig.cache
+/Users/jitkcheo/Desktop/C#/Program/Program.cs/obj/Debug/net8.0/ref/Program.cs.dll
