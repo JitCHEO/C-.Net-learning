@@ -1,0 +1,15 @@
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net8.0/BethanysPieShopHRM
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net8.0/BethanysPieShopHRM.deps.json
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net8.0/BethanysPieShopHRM.runtimeconfig.json
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net8.0/BethanysPieShopHRM.dll
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net8.0/BethanysPieShopHRM.pdb
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.AssemblyInfoInputs.cache
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.AssemblyInfo.cs
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.csproj.CoreCompileInputs.cache
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.sourcelink.json
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.dll
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/refint/BethanysPieShopHRM.dll
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.pdb
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/BethanysPieShopHRM.genruntimeconfig.cache
+/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/06/demos/m6/end/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net8.0/ref/BethanysPieShopHRM.dll

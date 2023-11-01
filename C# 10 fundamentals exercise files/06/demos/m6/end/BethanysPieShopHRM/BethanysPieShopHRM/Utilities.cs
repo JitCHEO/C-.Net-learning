@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -10,6 +10,7 @@ namespace BethanysPieShopHRM
     internal class Utilities
     {
 
+        // Demo: Small recap on STRINGS 
         public static void UsingSimpleStrings()
         {
 
@@ -24,6 +25,8 @@ namespace BethanysPieShopHRM
             userName = "";//identical to string.Empty;
         }
 
+        // Demo: Working with Strings
+        // Concatenation Strings
         public static void ManipulatingStrings()
         {
             string firstName = "Bethany";
@@ -51,6 +54,7 @@ namespace BethanysPieShopHRM
             var v = $"Hello, {firstName}!";
             Console.WriteLine(v);
         }
+
 
         public static void UsingEscapeCharacters()
         {

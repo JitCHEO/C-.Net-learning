@@ -3,13 +3,15 @@ using BethanysPieShopHRM;
 
 Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 
+// Demo: Creating & using Methods
+// Demo: Adding a Helper File
 
-//int amount = 1234;
-//int months = 12;
-//int bonus = 1000;
+// int amount = 1234;
+// int months = 12;
+// int bonus = 1000;
 
-//int yearlyWage = Utilities.CalculateYearlyWage(amount, months);
-//int yearlyWageWithBonus = Utilities.CalculateYearlyWage(amount, months, bonus);
+// int yearlyWage = Utilities.CalculateYearlyWage(amount, months);
+// int yearlyWageWithBonus = Utilities.CalculateYearlyWage(amount, months, bonus);
 
 //Console.WriteLine($"Yearly wage: {yearlyWage}");
 
@@ -19,6 +21,8 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //double bonusDouble = 1000;
 
 //double yearlyWageWithBonusDouble = Utilities.CalculateYearlyWage(amountDouble, monthsDouble, bonusDouble);
+
+
 
 Utilities.UsingOptionalParameters();
 

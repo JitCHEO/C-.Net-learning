@@ -1,85 +1,90 @@
 ﻿
 Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 
+// Demo: Working with Boolean Values
+// int age = 23;
 
-//int age = 23;
+// bool a = age == 23;
+// Console.WriteLine("Age is 23: " + a);
 
-//bool a = age == 23;
-//Console.WriteLine("Age is 23: " + a);
+// bool b = age > 22;
+// Console.WriteLine("Age is greater than 23: " + b);
 
-//bool b = age > 23;
-//Console.WriteLine("Age is greater than 23: " + b);
+// bool c = (age >= 18) && (age <= 65);
+// Console.WriteLine("Age is between 18 and 65: " + c);
 
-//bool c = (age >= 18) && (age <= 65);
-//Console.WriteLine("Age is between 18 and 65: " + c);
-
-
-//int age1 = 16;
-//int age2 = 64;
-//bool d = (age1 >= 18) && (age2 <= 65);
-//Console.WriteLine("Age1 is greater than 18 AND age2 is less than 65: " + d);
-//bool e = (age1 >= 18) || (age2 <= 65);
-//Console.WriteLine("Age1 is greater than 18 OR age2 is less than 65: " + e);
+// Demo: Using IF statements
+// int age1 = 16;
+// int age2 = 64;
+// bool d = (age1 >= 18) && (age2 <= 65);
+// Console.WriteLine("Age1 is greater than 18 AND age2 is less than 65: " + d);
+// bool e = (age1 >= 18) || (age2 <= 65);
+// Console.WriteLine("Age1 is greater than 18 OR age2 is less than 65: " + e);
 
 
-//Console.WriteLine("Enter the age of the new candidate: ");
-//int age = int.Parse(Console.ReadLine());
+// Console.WriteLine("Enter the age of the new candidate: ");
+// int age = int.Parse(Console.ReadLine());
 
-//if (age < 18)
+// if (age < 18)
 //    Console.WriteLine("Too young to apply");
-//else
+// else
 //    Console.WriteLine("Great, you can now start with the application!");
 
 
-//if (age < 18)
+// if (age < 18)
+// // {
 //    Console.WriteLine("Too young to apply.");
-//Console.WriteLine("Send email to candidate.");
-//else
+//    Console.WriteLine("Send email to candidate.");
+//    // need curly braces here else compiler will not work
+// // }   
+// else
+// // {
 //    Console.WriteLine("Great, you can now start with your application!");
+// // } 
 
-//if (age < 18)
-//{
+// if (age < 18)
+// {
 //    Console.WriteLine("Too young to apply");
 //    Console.WriteLine("Send email to candidate.");
-//}
-//else
-//{
+// }
+// else
+// {
 //    Console.WriteLine("Great, you can now start with the application!");
-//}
+// }
 
 
-//if (age < 18)
-//{
+// if (age < 18)
+// {
 //    Console.WriteLine("Too young to apply");
 //    Console.WriteLine("Send email to candidate.");
-//}
-//else if (age > 65)
-//{
+// }
+// else if (age > 65)
+// {
 //    Console.WriteLine("Sorry, the selected age is too old");
 //    Console.WriteLine("Send email to candidate.");
-//}
-//else
-//{
+// }
+// else
+// {
 //    Console.WriteLine("Great, you can continue!");
-//}
+// }
 
-//DateTime today = DateTime.Now;
-//bool endOfMonthPaymentStarted = false;
+// DateTime today = DateTime.Now;
+// bool endOfMonthPaymentStarted = false;
 
-//if (today.Date.Day == 20)
-//{
+// if (today.Date.Day == 20)
+// {
 //    Console.WriteLine("Please start end-of-month employee payments");
-//}
-//else if (today.Date.Day >= 25 && !endOfMonthPaymentStarted)
-//{
+// }
+// else if (today.Date.Day >= 25 && !endOfMonthPaymentStarted)
+// {
 //    Console.WriteLine("Payments will be late!");
-//}
-////else isn't required!
+// }
+// // else isn't required!
 
 
-
-//switch (age)
-//{
+// Demo: Using the SWITCH statement
+// switch (age)
+// {
 //    case < 18:
 //        Console.WriteLine("Too young to apply");
 //        break;
@@ -92,10 +97,10 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //    default:
 //        Console.WriteLine("Great, you can continue!");
 //        break;
-//}
+// }
 
-//switch (age)
-//{
+// switch (age)
+// {
 //    case < 18:
 //    case > 65:
 //        Console.WriteLine("Sorry, your age is not within the range we are looking for");
@@ -106,16 +111,17 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //    default:
 //        Console.WriteLine("Great, you can continue!");
 //        break;
-//}
+// }
 
-//Console.WriteLine("Choose the action you want to do: ");
-//Console.WriteLine("1. Add employee");
-//Console.WriteLine("2. Update employee");
-//Console.WriteLine("3. Delete employee");
-//string selectedAction = Console.ReadLine();
+// Examples:
+// Console.WriteLine("Choose the action you want to do: ");
+// Console.WriteLine("1. Add employee");
+// Console.WriteLine("2. Update employee");
+// Console.WriteLine("3. Delete employee");
+// string selectedAction = Console.ReadLine();
 
-//switch (selectedAction)
-//{
+// switch (selectedAction)
+// {
 //    case "1":
 //        Console.WriteLine("Adding new employee...");
 //        break;
@@ -128,30 +134,40 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //    default:
 //        Console.WriteLine("Invalid input");
 //        break;
-//}
+// }
 
 
+// Demo: Creating a WHILE loop
+// Console.WriteLine("Enter a value: ");
+// int max = int.Parse(Console.ReadLine());
+// int i = 0;
 
-//Console.WriteLine("Enter a value: ");
-//int max = int.Parse(Console.ReadLine());
-//int i = 0;
-
-//while (i < max)
-//{
+// while (i < max)
+// {
 //    Console.WriteLine(i);
 //    i++;
-//}
+// }
+
+// int i = 10;
+// while (i > 0)
+// {
+//     Console.WriteLine(i);
+//     i--;
+// }
+
+// Console.WriteLine("loops finshed!");
 
 
-//Console.WriteLine("Choose the action you want to do: ");
-//Console.WriteLine("1. Add employee");
-//Console.WriteLine("2. Update employee");
-//Console.WriteLine("3. Delete employee");
-//Console.WriteLine("99. Exit application");
-//string selectedAction = Console.ReadLine();
+// Examples:
+// Console.WriteLine("Choose the action you want to do: ");
+// Console.WriteLine("1. Add employee");
+// Console.WriteLine("2. Update employee");
+// Console.WriteLine("3. Delete employee");
+// Console.WriteLine("99. Exit application");
+// string selectedAction = Console.ReadLine();
 
-//while (selectedAction != "99")
-//{
+// while (selectedAction != "99")
+// {
 //    switch (selectedAction)
 //    {
 //        case "1":
@@ -173,16 +189,17 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //    Console.WriteLine("3. Delete employee");
 //    Console.WriteLine("99. Exit application");
 //    selectedAction = Console.ReadLine();
-//}
+// }
 
-//Console.WriteLine("Closing application");
+// Console.WriteLine("Closing application");
 
 
-//int i = 0;
-//int j = 0;
+// Examples:
+// int i = 0;
+// int j = 0;
 
-//while (i < 10)
-//{
+// while (i < 10)
+// {
 //    while (j < 10)
 //    {
 //        Console.WriteLine("i: " + i + "   j: " + j);
@@ -190,20 +207,21 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //    }
 //    j = 0;
 //    i++;
-//}
+// }
 
-
-//while (true)
-//{
+// Example
+// Infinite loop
+// while (true)
+// {
 //    Console.WriteLine(DateTime.Now);
-//}
+// }
 
+// Demo: More Loops
+// Example 1
+// string selectedAction = "";
 
-
-//string selectedAction = "";
-
-//do
-//{
+// do
+// {
 //    Console.WriteLine("Choose the action you want to do: ");
 //    Console.WriteLine("1. Add employee");
 //    Console.WriteLine("2. Update employee");
@@ -227,35 +245,36 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 //            break;
 //    }
 
-//} while (selectedAction != "99");
+// } while (selectedAction != "99");
 
-//Console.WriteLine("Closing application");
+// Console.WriteLine("Closing application");
 
-//for (int i = 0; i < 10; i++)
-//{
+// Example 2
+// for (int i = 0; i < 10; i++)
+// {
 //    Console.WriteLine(i);
-//}
+// }
 
-
-//for (int i = 0, j = 10; i < 10 && j > 0; i++, j--)
-//{
+// Example 3
+// for (int i = 0, j = 10; i < 10 && j > 0; i++, j--)
+// {
 //    Console.WriteLine("i: " + i + "   j: " + j);
-//}
+// }
 
-//Console.WriteLine("Enter a value: ");
-//int max = int.Parse(Console.ReadLine());
+// Example 4
+Console.WriteLine("Enter a value: ");
+int max = int.Parse(Console.ReadLine());
 
-
-//for (int i = 0; i < max; i++)
-//{
-//    if (i == 15)
-//    {
-//        Console.WriteLine("Bingo! " + i + " was found!");
-//        continue;
-//        //break;
-//    }
-//    Console.WriteLine(i);
-//}
+for (int i = 0; i < max; i++)
+{
+   if (i == 15)
+   {
+       Console.WriteLine("Bingo! " + i + " was found!");
+        continue; // Continue will continue till the number that was input
+        break;       // Break will stop when Bingo was found 
+   }
+   Console.WriteLine(i);
+}
 
 
 Console.ReadLine();
