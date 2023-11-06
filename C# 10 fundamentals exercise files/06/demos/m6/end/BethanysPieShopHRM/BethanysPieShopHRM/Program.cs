@@ -26,7 +26,7 @@ Console.WriteLine("Welcome to Bethany's Pie Shop HRM");
 
 //Utilities.ManipulatingStrings();
 
-//Utilities.UsingEscapeCharacters();
+// Utilities.UsingEscapeCharacters();
 
 //Utilities.UsingStringEquality();
 

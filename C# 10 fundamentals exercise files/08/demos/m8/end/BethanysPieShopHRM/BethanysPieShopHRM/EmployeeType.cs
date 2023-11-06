@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM
 {
+    
+    // Demo: Creating Enumerations
     enum EmployeeType
     {
-        Sales,
-        Manager,
-        Research,
-        StoreManager
+        Sales, //0
+        Manager, //1
+        Research, //2
+        StoreManager //3
     }
 }

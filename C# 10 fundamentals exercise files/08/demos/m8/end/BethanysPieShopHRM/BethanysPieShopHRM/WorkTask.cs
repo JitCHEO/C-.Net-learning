@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM
 {
+	// Demo: Creating a struct
 	struct WorkTask
 	{
 		public string description;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Demo: Creating the Employee Class
 namespace BethanysPieShopHRM
 {
     internal class Employee
@@ -20,6 +21,14 @@ namespace BethanysPieShopHRM
 
         const int minimalHoursWorkedUnit = 1;
 
+
+        // Demo: Creating an object
+        // No return type: void,double...
+        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0)
+        {
+        }
+
+        // Objects
         public Employee(string first, string last, string em, DateTime bd, double rate)
         {
             firstName = first;
@@ -29,13 +38,15 @@ namespace BethanysPieShopHRM
             hourlyRate = rate;
         }
 
-        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0)
-        {
-        }
-
+        // Methods
         public void PerformWork()
         {
-            PerformWork(minimalHoursWorkedUnit);
+            // minimalHoursWorkedUnit is a CONST that was define above 
+            // PerformWork(minimalHoursWorkedUnit);
+            // Top option will invoked through the bottom method
+            // Bottom option is just the basic
+            numberOfHoursWorked ++;
+            Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!");
         }
 
         public void PerformWork(int numberOfHours)

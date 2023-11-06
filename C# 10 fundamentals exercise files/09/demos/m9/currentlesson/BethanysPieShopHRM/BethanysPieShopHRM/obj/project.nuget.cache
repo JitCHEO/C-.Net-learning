@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N77qQmGO7v9CzFuM3w7pIKYJoiz7AHzQRvg+AkbKDhtQ47kZornroHLJTTV/JxTOeJUee22onMwniSylrjN9Og==",
+  "success": true,
+  "projectFilePath": "/Users/jitkcheo/Desktop/C#/C# 10 fundamentals exercise files/09/demos/m9/currentlesson/BethanysPieShopHRM/BethanysPieShopHRM/BethanysPieShopHRM.csproj",
+  "expectedPackageFiles": [
+    "/Users/jitkcheo/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

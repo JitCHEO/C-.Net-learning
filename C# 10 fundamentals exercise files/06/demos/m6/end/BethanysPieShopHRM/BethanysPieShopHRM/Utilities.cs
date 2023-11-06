@@ -55,20 +55,27 @@ namespace BethanysPieShopHRM
             Console.WriteLine(v);
         }
 
-
+        // Demo: Using Escape Characters
         public static void UsingEscapeCharacters()
         {
             string firstName = "Bethany";
             string lastName = "Smith";
 
             string displayName = $"Welcome!\n{firstName}\t{lastName}";
+            Console.WriteLine(displayName);
 
-            string filePath = "C:\\data\\employeelist.xlsx";
-            string marketingTagLine = "Baking the \"best pies\" ever";
-
+            string filePath = "C:\\data\\employeelist.xlsx"; //adding another \ to \\ will not treat it as a escape character
+            Console.WriteLine(filePath);
+            // Adding @ at the front will improve reading ability compare to the top way
             string verbatimFilePath = @"C:\data\employeelist.xlsx";
+            Console.WriteLine(verbatimFilePath);
+            string marketingTagLine = "Baking the \"best pies\" ever";
+            Console.WriteLine(marketingTagLine);
+
+           
         }
 
+        // Demo: Comparing Strings
         public static void UsingStringEquality()
         {
 
@@ -81,6 +88,7 @@ namespace BethanysPieShopHRM
             Console.WriteLine("Is uppercase name equal to bethany? " + (name1.ToLower() == "bethany"));
         }
 
+        // Demo: Parsing Strings
         public static void ParsingStrings()
         {
             Console.Write("Enter the wage: ");
@@ -94,7 +102,7 @@ namespace BethanysPieShopHRM
             else
                 Console.WriteLine("Parsing failed");
 
-            string hireDateString = "12/12/2020";
+            string hireDateString = "12/12/2022";
             DateTime hireDate = DateTime.Parse(hireDateString);
             Console.WriteLine("Parsed date: " + hireDate);
             //TryParse also exists for dates

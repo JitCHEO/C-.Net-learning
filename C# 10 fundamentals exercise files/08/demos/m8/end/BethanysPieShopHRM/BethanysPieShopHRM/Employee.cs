@@ -21,6 +21,13 @@ namespace BethanysPieShopHRM
 
         const int minimalHoursWorkedUnit = 1;
 
+        // Demo: Creating Enumerations
+        // public EmployeeType employeeType;
+        
+        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0, EmployeeType.StoreManager)
+        {
+        }
+
         public Employee(string first, string last, string em, DateTime bd, double rate, EmployeeType empType)
         {
             firstName = first;
@@ -29,10 +36,6 @@ namespace BethanysPieShopHRM
             birthDay = bd;
             hourlyRate = rate;
             employeeType = empType;
-        }
-
-        public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0, EmployeeType.StoreManager)
-        {
         }
 
         public void PerformWork()
@@ -57,8 +60,9 @@ namespace BethanysPieShopHRM
             return bonus;
         }
 
-        //public int CalculateBonusAndBonusTax(int bonus, ref int bonusTax)
-        //{
+        // Demo: Using Ref
+        // public int CalculateBonusAndBonusTax(int bonus, ref int bonusTax)
+        // {
 
         //    if (numberOfHoursWorked > 10)
         //        bonus *= 2;
@@ -71,8 +75,9 @@ namespace BethanysPieShopHRM
 
         //    Console.WriteLine($"The employee got a bonus of {bonus} and the tax on the bonus is {bonusTax}");
         //    return bonus;
-        //}
+        // }
 
+        // Demo: Using Out
         public int CalculateBonusAndBonusTax(int bonus, out int bonusTax)
         {
             bonusTax = 0;
@@ -89,7 +94,19 @@ namespace BethanysPieShopHRM
             return bonus;
         }
 
+        // // Demo: Custom Types(need to import something, watch the lecture again)
+        // public static void UsingACustomType()
+        // {
+        //     List <string> list = new List<string>;
+        // }
 
+        // public string ConvertToJson()
+        // {
+        //     string json = JsonConvert.SerializeObject(this);
+        //     return json;
+        // }
+
+        // Demo: Creating enumerations
         public double ReceiveWage(bool resetHours = true)
         {
             if (employeeType == EmployeeType.Manager)
