@@ -20,6 +20,7 @@ namespace BethanysPieShopHRM.HR
 
         public static double taxRate = 0.15;
 
+        // Properties to make the object become private(encapsulation)
         public string FirstName
         {
             get { return firstName; }
